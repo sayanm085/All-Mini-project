@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.box{
+    width: auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.fullbox{
+    height: 460px;
+   width: 390px;
+   border-radius: 31px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 0px 0px 7px rgb(125, 131, 133);
+    background-color: rgb(255, 255, 255);
+}
+
+.upbox{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius:27px ;
+    border-top-left-radius: 27px;
+    background-color: #5080fa;
+}
+.roundbox{
+    height: 143px;
+    width: 142px;
+    position: relative;
+    top: 40px;
+    border-radius: 100%;
+    border: 5px solid #5080fa;
+    background-color: #50d8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roundimg{
+    height: 139px;
+    width: 199px;
+    border-radius: 100%;
+    border: 4px solid white;
+    background-image: url(./image/Untitled-1.png);
+    background-size: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(59, 59, 255);
+}
+.text{
+   margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Socialicon{
+    width: 60%;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 30px;
+}
+
+i{
+    background-position: center;
+    background-color: #5080fa;
+    border-radius: 12px;
+}
+.sub{
+    width: 350px;
+   position: relative;
+   bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;   
+}
+.p{
+    background-color: #5080fa;
+    padding-top: 5px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    height: 30px;
+    width: 100px;
+}
+.p:hover{
+    border: 2px solid rgb(121, 226, 255);
+    background-color: #50d8fa;
+
+}
+.Reaction{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    justify-content: center;
+    bottom: 35px;
+    
+}
+.lasticon{
+    height: 40px;
+    width: 90px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.last{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.like:hover{
+    color: #4102ff;
+}
